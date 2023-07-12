@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
-    font-family: "Poppins", sans-serif
-
+    font-family: "Poppins", sans-serif;
+    margin:0;
 }
 
 
@@ -39,27 +39,28 @@ li{
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding:60px 80px;
+    padding:10px 80px;
     color:white;
-    
+    padding-bottom: 40px;
 }
 
 .image{
 
     width: 700px;
-    height: 200px;
+    height: 300px;
     background-color: #323e50;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left:20px;
-
+    flex:auto;
 }
 
 .text-top-left h1 {
-    font-size:30px;
-    font-weight: bold;
+    font-size:48px;
+    font-weight: 900px;
     margin-bottom: 0px;
+    color:#E5E7EB;
 }
 
 .text-top-left p{
@@ -76,4 +77,8 @@ li{
     padding: 4px 10px;
     border: #3882F6 solid;
     font-weight: bold;
+}
+
+.content{
+
 }
