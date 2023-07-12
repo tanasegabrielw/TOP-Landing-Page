@@ -79,6 +79,34 @@ li{
     font-weight: bold;
 }
 
+h3{
+
+    font-size: 32px;;
+    font-weight: 900;
+}
+
+.small-image{
+   width: 200px;
+   height: 200px;;
+    border: #3882F6 solid;
+    border-radius: 10px;
+    margin:0px;
+}
+
+.boxes{
+
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+.box{
+    max-width: 200px;
+}
+
 .content{
+    text-align: center;
+    margin:40px;
 
 }
+
