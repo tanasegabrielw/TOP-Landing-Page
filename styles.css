@@ -42,6 +42,7 @@ li{
     padding:10px 80px;
     color:white;
     padding-bottom: 40px;
+
 }
 
 .image{
@@ -61,14 +62,22 @@ li{
     font-weight: 900px;
     margin-bottom: 0px;
     color:#E5E7EB;
+
 }
 
 .text-top-left p{
     font-size:14px;
     font-weight: 300px;
     margin-top:0px;
-    
 }
+.text-top-left 
+
+{
+    max-width: 600px;
+
+}
+    
+
 
 .blue-background{
     background-color: #3882F6;
@@ -105,20 +114,39 @@ h3{
 }
 
 .content{
+
     text-align: center;
     flex-direction: column;
-    align-content: center;
+
 }
 
 .quote{
-
+    display:flex;
     background-color: #E5E7EB;
-    
+    flex-direction: column;
+    align-items:center; 
+    padding:80px;
+    flex-grow: 0;
 }
 
 .q-text{
 
-    max-width: 800px;
-    text-align: left;
-    font-size: 36px;
+    font-size: 32px;
+    margin-bottom: 0px;
+    font-style: italic;
+    font-weight: 100;
+    max-width:1000px;
+    padding:5px;
+    line-height: 1.5;
+    
+}
+
+.author{
+
+    margin-top:0px;;
+    font-weight: bold;
+    text-align:right;
+    padding-right:20px;
+    font-size:20px;
+    
 }
