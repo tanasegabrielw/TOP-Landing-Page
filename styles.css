@@ -106,7 +106,19 @@ h3{
 
 .content{
     text-align: center;
-    margin:40px;
-
+    flex-direction: column;
+    align-content: center;
 }
 
+.quote{
+
+    background-color: #E5E7EB;
+    
+}
+
+.q-text{
+
+    max-width: 800px;
+    text-align: left;
+    font-size: 36px;
+}
